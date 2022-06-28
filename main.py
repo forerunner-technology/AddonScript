@@ -7,18 +7,13 @@ import os
 
 def os_checker():
     if platform.uname().system == 'Darwin':
-        print('This is a Mac...checking for ARM or x86')
         if platform.uname().machine == 'arm64':
-            print('ARM Architecture detected')
             return 'Mac'
         else:
-            print('x86 Mac detected')
             return 'Mac'
     elif platform.uname().system == 'Windows':
-        print('Windows detected')
         return 'Windows'
     else:
-        print('Linux detected')
         return 'Linux'
 
 
@@ -31,11 +26,11 @@ elif os_checker() == 'Windows':
     addon_dir = "C:\ProgramFiles(x86)\WorldofWarcraft\_retail_\Interface\AddOns\\"  # have someone check this
     working_dir = os.environ.get('HOME') + '/tempAddonDir/'
 else:
-    addon_dir = os.environ.get('HOME') + 'Games/World of Warcraft/_retail_/Interface/AddOns/'
+    addon_dir = os.environ.get('HOME') + '/Games/world-of-warcraft/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/'
     working_dir = '/tmp/tempAddonDir/'
 
 
-addon_list = {"name": ["DBM", "Details"], "url": ["https://www.curseforge.com/wow/addons/deadly-boss-mods/download", "https://www.curseforge.com/wow/addons/details/download"], "version": [1964, 69]}
+addon_list = {"name": ["DBM", "Details", "elvui", "handynotes", "weakauras"], "url": ["https://www.curseforge.com/wow/addons/deadly-boss-mods/download", "https://www.curseforge.com/wow/addons/details/download", "https://www.curseforge.com/wow/addons/handynotes/download", "https://www.curseforge.com/wow/addons/weakauras-2/download"], "version": [1964, 69]}
 
 
 # TODO: Add functionality to install the Gecko Drivers to the working path
@@ -60,7 +55,7 @@ def download_addon():
     for url in urllist:
         driver.get(url)
         time.sleep(6)
-        print("Downloaded the file from: %s", url)
+        print("Downloaded the file from: {url}".format(url = url))
 
 def extract_to_addon_directory(directory):
     f = []
@@ -71,7 +66,7 @@ def extract_to_addon_directory(directory):
     print(f)
     # for each file in the list, extract to wow AddOn Folder
     for file in f:
-        print("Extracting contents of %s to the WoW addon folder", file)
+        print("Extracting contents of {file} to the WoW addon folder".format(file=file))
         with zipfile.ZipFile(working_dir + file, 'r') as zip_ref:
             zip_ref.extractall(directory)
 

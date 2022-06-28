@@ -614,3 +614,120 @@ Exiting due to channel error.
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1656377201047	geckodriver	INFO	Listening on 127.0.0.1:49319
+1656377201049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49919" "-no-remote" "-profile" "/tmp/rust_mozprofilelMYP2C"
+*** You are running in headless mode.
+1656377201217	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49919
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelMYP2C/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656377201720	Marionette	INFO	Listening on port 46675
+DevTools listening on ws://localhost:49919/devtools/browser/d434e5a8-0ed8-49be-9aae-74db311cb170
+1656377201761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.curseforge.com/wow/addons/deadly-boss-mods/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 13853, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:13853): GLib-GObject-CRITICAL **: 20:46:48.144: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/details/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 13853, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:13853): GLib-GObject-CRITICAL **: 20:46:55.215: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656377413813	geckodriver	INFO	Listening on 127.0.0.1:57687
+1656377413815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "48011" "-no-remote" "-profile" "/tmp/rust_mozprofile0s6PPS"
+*** You are running in headless mode.
+1656377413984	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:48011
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0s6PPS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656377414534	Marionette	INFO	Listening on port 38361
+DevTools listening on ws://localhost:48011/devtools/browser/c71e4ff7-4d0f-41a7-ae45-89748f6ed2d9
+1656377414624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.curseforge.com/wow/addons/deadly-boss-mods/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 14764, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:14764): GLib-GObject-CRITICAL **: 20:50:21.419: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/details/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 14764, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:14764): GLib-GObject-CRITICAL **: 20:50:27.452: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/handynotes/download, line 424: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 14764, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:14764): GLib-GObject-CRITICAL **: 20:50:33.654: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/weakauras-2/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 14764, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:14764): GLib-GObject-CRITICAL **: 20:50:40.106: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1656377619909	geckodriver	INFO	Listening on 127.0.0.1:53835
+1656377619911	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "36457" "-no-remote" "-profile" "/tmp/rust_mozprofileX8jAlq"
+*** You are running in headless mode.
+1656377620079	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36457
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX8jAlq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656377620564	Marionette	INFO	Listening on port 36867
+DevTools listening on ws://localhost:36457/devtools/browser/0b1ee528-10d3-4f7b-be2c-5e6ecd5a5dbb
+1656377620619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.curseforge.com/wow/addons/deadly-boss-mods/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15632): GLib-GObject-CRITICAL **: 20:53:47.104: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/details/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15632): GLib-GObject-CRITICAL **: 20:53:53.229: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/handynotes/download, line 424: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15632): GLib-GObject-CRITICAL **: 20:53:59.330: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/weakauras-2/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15632): GLib-GObject-CRITICAL **: 20:54:05.836: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1656377697905	geckodriver	INFO	Listening on 127.0.0.1:38199
+1656377697907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49691" "-no-remote" "-profile" "/tmp/rust_mozprofileiY1TJS"
+*** You are running in headless mode.
+1656377698073	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49691
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiY1TJS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656377698592	Marionette	INFO	Listening on port 43709
+DevTools listening on ws://localhost:49691/devtools/browser/eab6813a-5a90-478d-a00f-b3917f753656
+1656377698615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.curseforge.com/wow/addons/deadly-boss-mods/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15982, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15982): GLib-GObject-CRITICAL **: 20:55:05.300: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/details/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15982, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15982): GLib-GObject-CRITICAL **: 20:55:11.166: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/handynotes/download, line 424: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15982, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15982): GLib-GObject-CRITICAL **: 20:55:17.331: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+JavaScript error: https://www.curseforge.com/wow/addons/weakauras-2/download, line 423: ReferenceError: _cc3613 is not defined
+JavaScript error: https://configs.forgecdn.net/ow.min.js, line 1: ReferenceError: btn is not defined
+[Parent 15982, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox/src/firefox-101.0.1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:15982): GLib-GObject-CRITICAL **: 20:55:23.706: g_object_get: assertion 'G_IS_OBJECT (object)' failed
