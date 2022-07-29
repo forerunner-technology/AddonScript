@@ -30,7 +30,7 @@ else:
     working_dir = '/tmp/tempAddonDir/'
 
 
-addon_list = {"name": ["DBM", "Details", "elvui", "handynotes", "weakauras"], "url": ["https://www.curseforge.com/wow/addons/deadly-boss-mods/download", "https://www.curseforge.com/wow/addons/details/download", "https://www.curseforge.com/wow/addons/handynotes/download", "https://www.curseforge.com/wow/addons/weakauras-2/download"], "version": [1964, 69]}
+addon_list = {"name": ["DBM", "Details", "elvui", "handynotes", "weakauras"], "url": ["https://www.curseforge.com/wow/addons/omen-threat-meter/download","https://www.curseforge.com/wow/addons/deadly-boss-mods/download", "https://www.curseforge.com/wow/addons/details/download", "https://www.curseforge.com/wow/addons/handynotes/download", "https://www.curseforge.com/wow/addons/weakauras-2/download"], "version": [1964, 69]}
 
 
 # TODO: Add functionality to install the Gecko Drivers to the working path
@@ -54,7 +54,7 @@ def download_addon():
     urllist = addon_list['url']
     for url in urllist:
         driver.get(url)
-        time.sleep(6)
+        time.sleep(7)
         print("Downloaded the file from: {url}".format(url = url))
 
 def extract_to_addon_directory(directory):
