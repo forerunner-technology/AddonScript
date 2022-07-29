@@ -54,7 +54,7 @@ def download_addon():
     urllist = addon_list['url']
     for url in urllist:
         driver.get(url)
-        time.sleep(6)
+        time.sleep(7)
         print("Downloaded the file from: {url}".format(url = url))
 
 def extract_to_addon_directory(directory):
