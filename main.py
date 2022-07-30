@@ -49,13 +49,14 @@ def download_addon():
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.download.dir", working_dir)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
-    options.add_argument("--headless")
+    #options.add_argument("--headless")
     driver = webdriver.Firefox(options=options)
     urllist = addon_list['url']
     for url in urllist:
         driver.get(url)
         time.sleep(7)
         print("Downloaded the file from: {url}".format(url = url))
+    driver.quit()
 
 def extract_to_addon_directory(directory):
     f = []
